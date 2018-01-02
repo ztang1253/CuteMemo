@@ -1,0 +1,263 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:scrollbars="vertical"
+    android:fadingEdge="vertical">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:orientation="vertical" android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorLightPink">
+
+        <TextView android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:textColor="@color/colorBlack"
+            android:text="Date: (mm/dd/yyyy)"
+            android:textSize="7pt"/>
+
+        <EditText android:id="@+id/date_picker"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:inputType="none"
+            android:focusable="false"
+            android:textColor="@color/colorBlack"
+            android:layout_gravity="start"
+            android:textAlignment="textStart"
+            android:textSize="7pt"
+            android:clickable="true" />
+
+        <TextView android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:textColor="@color/colorBlack"
+            android:text="Sleeping Time: (hours)"
+            android:textSize="7pt"/>
+
+        <EditText android:id="@+id/sleep_picker"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:inputType="none"
+            android:focusable="false"
+            android:textColor="@color/colorBlack"
+            android:textAlignment="center"
+            android:textSize="7pt"
+            android:text="8"
+            android:clickable="true"/>
+
+        <TextView android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:textColor="@color/colorBlack"
+            android:text="Weight: (kg)"
+            android:textSize="7pt"/>
+
+        <EditText android:id="@+id/weight_picker"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:inputType="none"
+            android:focusable="false"
+            android:textColor="@color/colorBlack"
+            android:textAlignment="center"
+            android:textSize="7pt"
+            android:text="100"
+            android:clickable="true"/>
+
+        <TextView android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:textColor="@color/colorBlack"
+            android:text="Did you eat breakfast, lunch, dinner today?"
+            android:textSize="7pt"/>
+
+        <EditText android:id="@+id/dinner_picker"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:inputType="none"
+            android:focusable="false"
+            android:textColor="@color/colorBlack"
+            android:textAlignment="center"
+            android:textSize="7pt"
+            android:text="All finished"
+            android:clickable="true"/>
+
+        <TextView android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:textColor="@color/colorBlack"
+            android:text="SportsTime: (hours)"
+            android:textSize="7pt"/>
+
+        <EditText android:id="@+id/sport_picker"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:inputType="none"
+            android:focusable="false"
+            android:textColor="@color/colorBlack"
+            android:textAlignment="center"
+            android:textSize="7pt"
+            android:text="1"
+            android:clickable="true"/>
+
+        <TextView android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:textColor="@color/colorBlack"
+            android:text="Notes:"
+            android:textSize="7pt"/>
+
+        <EditText android:id="@+id/notes"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:inputType="textAutoComplete"
+            android:textColor="@color/colorBlack"
+            android:textSize="7pt"
+            android:hint="Notes, Events, Activities of today"/>
+
+        <CheckBox android:id="@+id/tab_today_cb"
+            android:layout_height="30dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="20dp"
+            android:textStyle="bold"
+            android:textSize="8pt"
+            android:layout_width="match_parent"
+            android:textColor="@color/colorBlack"
+            android:text="To record more private data?"
+            android:background="@color/colorLightGray" />
+
+        <LinearLayout android:id="@+id/private_area"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:orientation="vertical"
+            android:visibility="gone">
+
+            <TextView android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:textColor="@color/colorBlack"
+                android:text="Period Color:"
+                android:textSize="7pt"/>
+
+            <EditText android:id="@+id/period_picker"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:inputType="none"
+                android:focusable="false"
+                android:textColor="@color/colorBlack"
+                android:textAlignment="center"
+                android:textSize="7pt"
+                android:text="N/A"
+                android:clickable="true"/>
+
+            <TextView android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:textColor="@color/colorBlack"
+                android:text="Much or Little?:"
+                android:textSize="7pt"/>
+
+            <EditText android:id="@+id/grade_picker"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:inputType="none"
+                android:focusable="false"
+                android:textColor="@color/colorBlack"
+                android:textAlignment="center"
+                android:textSize="7pt"
+                android:text="N/A"
+                android:clickable="true"/>
+
+            <TextView android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:textColor="@color/colorBlack"
+                android:text="Pee Color:"
+                android:textSize="7pt"/>
+
+            <EditText android:id="@+id/pee_picker"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:inputType="none"
+                android:focusable="false"
+                android:textColor="@color/colorBlack"
+                android:textAlignment="center"
+                android:textSize="7pt"
+                android:text="N/A"
+                android:clickable="true"/>
+        </LinearLayout>
+
+        <LinearLayout android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:orientation="horizontal">
+
+            <Button android:id="@+id/save_btn"
+                android:layout_height="40dp"
+                android:layout_width="80dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="20dp"
+                android:background="@color/colorLightBlue"
+                android:text="Save"
+                android:textStyle="bold"
+                android:textColor="@color/colorWhite"/>
+
+            <Button android:id="@+id/back_btn"
+                android:layout_height="40dp"
+                android:layout_width="80dp"
+                android:layout_marginTop="10dp"
+                android:background="@color/colorLightYellow"
+                android:text="Back"
+                android:textStyle="bold"
+                android:visibility="gone"/>
+        </LinearLayout>
+
+    </LinearLayout>
+
+</ScrollView>

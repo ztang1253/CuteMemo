@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorLightYellow">
+
+    <FrameLayout android:layout_height="300dp"
+        android:layout_width="match_parent"
+        android:layout_marginTop="30dp">
+        <SurfaceView android:id="@+id/video_view"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+        <TextView android:id="@+id/video_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Demo video"
+            android:textColor="@color/colorWhite"
+            android:textSize="12pt"
+            android:layout_gravity="center" />
+
+        <TextView android:id="@+id/video_progress"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Demo video"
+            android:textColor="@color/colorWhite"
+            android:textSize="8pt"
+            android:layout_gravity="bottom|center_horizontal"
+            android:visibility="gone"/>
+    </FrameLayout>
+
+    <Button
+        android:id="@+id/video_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="10dp"
+        android:text="Download &amp; Play" />
+
+    <EditText
+        android:id="@+id/editText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Name" />
+
+</LinearLayout>

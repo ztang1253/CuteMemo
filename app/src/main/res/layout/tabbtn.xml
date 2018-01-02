@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:clickable="true"
+    android:background="@drawable/tabbtn_bg_selector">
+
+    <RelativeLayout
+        android:id="@+id/tabbtn_img_bg"
+        android:layout_marginTop="10dp"
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:layout_gravity="center_horizontal"
+        android:background="@drawable/tabbtn_cycle_bg_selector">
+
+        <ImageView
+            android:id="@+id/tabbtn_image"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:layout_gravity="center_horizontal" />
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/tabbtn_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="2dp"
+        android:layout_below="@id/tabbtn_img_bg"
+        android:textSize="4pt"
+        android:textStyle="bold"
+        android:layout_gravity="center_horizontal"
+        android:textColor="@color/tabbtn_text_selector"
+        android:layout_marginBottom="10dp"/>
+
+</LinearLayout>

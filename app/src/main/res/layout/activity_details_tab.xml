@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginTop="20dp"
+    android:layout_marginLeft="10dp"
+    android:layout_marginRight="10dp"
+    android:layout_marginBottom="20dp"
+    android:background="@color/colorLightPink2">
+
+    <TextView android:id="@+id/details_tv_date"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:textColor="@color/colorBlack"
+        android:textStyle="bold"
+        android:textSize="10pt" />
+
+    <TextView android:id="@+id/details_tv_others"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:textColor="@color/colorBlack"
+        android:layout_marginTop="20dp"
+        android:textSize="7pt"
+        android:text="@string/college" />
+
+    <LinearLayout android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp">
+
+        <Button android:id="@+id/details_edit"
+            android:layout_height="40dp"
+            android:layout_width="80dp"
+            android:textColor="@color/colorWhite"
+            android:textStyle="bold"
+            android:textSize="7pt"
+            android:layout_marginTop="10dp"
+            android:background="@color/colorLightBlue"
+            android:text="@string/details_edit"/>
+
+        <Button android:id="@+id/details_delete"
+            android:layout_height="40dp"
+            android:layout_width="80dp"
+            android:textColor="@color/colorBlack"
+            android:textStyle="bold"
+            android:textSize="7pt"
+            android:layout_marginTop="10dp"
+            android:background="@color/colorLightGray"
+            android:text="@string/details_delete"/>
+
+        <Button android:id="@+id/details_back"
+            android:layout_height="40dp"
+            android:layout_width="80dp"
+            android:textColor="@color/colorBlack"
+            android:textStyle="bold"
+            android:textSize="7pt"
+            android:layout_marginTop="10dp"
+            android:background="@color/colorLightYellow"
+            android:text="@string/details_back"/>
+    </LinearLayout>
+
+</LinearLayout>

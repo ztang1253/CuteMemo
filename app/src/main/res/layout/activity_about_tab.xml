@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginTop="20dp"
+    android:layout_marginLeft="10dp"
+    android:layout_marginRight="10dp"
+    android:layout_marginBottom="20dp"
+    android:background="@color/colorLightPink2">
+
+    <TextView android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:textColor="@color/colorBlack"
+        android:textStyle="bold"
+        android:textSize="10pt"
+        android:text="@string/developer" />
+
+    <TextView android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:textColor="@color/colorBlack"
+        android:layout_marginTop="20dp"
+        android:textSize="7pt"
+        android:text="@string/college" />
+
+    <Button android:id="@+id/about_phone"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:textColor="@color/colorBlack"
+        android:layout_marginTop="20dp"
+        android:textSize="7pt"
+        android:text="@string/phone"/>
+
+    <Button android:id="@+id/about_email"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:textColor="@color/colorBlack"
+        android:layout_marginTop="10dp"
+        android:textSize="7pt"
+        android:text="@string/email"/>
+
+    <TextView android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:textColor="@color/colorBlack"
+        android:layout_marginTop="20dp"
+        android:textSize="7pt"
+        android:text="@string/website_title" />
+
+    <Button android:id="@+id/about_website"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:textColor="@color/colorBlack"
+        android:layout_marginTop="10dp"
+        android:textSize="7pt"
+        android:text="@string/website_desc"/>
+
+    <Button android:id="@+id/about_reset"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:textColor="@color/colorBlack"
+        android:layout_marginTop="10dp"
+        android:textSize="7pt"
+        android:text="@string/reset"/>
+
+</LinearLayout>

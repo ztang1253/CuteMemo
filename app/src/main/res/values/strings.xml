@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Cute Memo</string>
+    <string name="copy_right">©2017 Zhenzhen Tang</string>
+    <string name="developer">Developer Name: Zhenzhen Tang</string>
+    <string name="college">Computer Programmer/Analyst (CPA), Conestoga College</string>
+    <string name="to_do">To be implemented</string>
+    <string name="phone">Call: 226-989-9559</string>
+    <string name="email">ztang1253@conestogac.on.ca</string>
+    <string name="website_title">College website:</string>
+    <string name="website_desc">Conestoga College</string>
+    <string name="reset">Reset Application (Clear All Data)</string>
+    <string name="details_edit">Edit</string>
+    <string name="details_delete">Delete</string>
+    <string name="details_back">Back</string>
+</resources>
